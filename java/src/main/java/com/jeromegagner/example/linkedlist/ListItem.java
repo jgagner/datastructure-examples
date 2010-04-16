@@ -27,4 +27,18 @@ public class ListItem {
         this.head = head;
     }
 
+    /**
+     * The length of the list
+     * @return
+     */
+    public int length(){
+      int i = 0;
+      ListItem curHead = head;
+      while(curHead != null){
+         i++;
+          curHead = curHead.next;
+      }
+        return i;
+    }
+
 }

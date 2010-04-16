@@ -18,4 +18,17 @@ public class LinkedListOperationsTests {
        ListItem head = LinkedListOperations.createList(10);
        assertEquals(LinkedListOperations.find(head,5).data,5);
     }
+
+    @Test
+    public void findTestWithNonExistentElement()
+    {
+       ListItem head = LinkedListOperations.createList(10);
+       assertNull(LinkedListOperations.find(head,11));
+    }
+
+    @Test
+    public void sizeTest(){
+        ListItem head = LinkedListOperations.createList(100);
+        assertEquals(100,head.length());
+    }
 }

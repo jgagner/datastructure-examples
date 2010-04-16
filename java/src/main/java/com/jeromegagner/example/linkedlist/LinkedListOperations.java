@@ -30,7 +30,7 @@ public class LinkedListOperations {
     public static ListItem createList(int numberOfItems){
         ListItem head = new ListItem(0);
         ListItem previous = head;
-        for (int i = 1; i < 10; i++) {
+        for (int i = 1; i < numberOfItems; i++) {
             ListItem item = new ListItem(i,head);
             previous.next = item;
             previous = item;
