@@ -17,8 +17,8 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="2fdedffc-7434-416e-b424-d008ae74cb2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iws" afterPath="$PROJECT_DIR$/java.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="java.iws" />
@@ -37,6 +37,21 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" line="49" class="com.jeromegagner.example.linkedlist.LinkedList" package="com.jeromegagner.example.linkedlist">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -99,7 +114,7 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="29" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+            <state line="49" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StackTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StackTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="41" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7688787">
+            <state line="8" column="35" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,10 +140,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListTests.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LinkedListTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="46" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="32" column="24" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5057208">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +166,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Element.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedListOperations.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListOperationsTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
       </list>
     </option>
   </component>
@@ -290,7 +305,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.StackTests">
+  <component name="RunManager" selected="JUnit.LinkedListTests">
     <configuration default="false" name="LinkedListOperationsTests" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
@@ -343,7 +358,13 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55258" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -704,11 +725,11 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -806,16 +827,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="46" selection-end="102" vertical-scroll-proportion="0.0">
+        <state line="8" column="35" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,9 +843,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="41" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7688787">
+        <state line="49" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="24" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5057208">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

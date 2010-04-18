@@ -29,4 +29,16 @@ public class LinkedListTests {
         LinkedList list = LinkedList.createList(100);
         assertEquals(100,list.length());
     }
+
+
+    @Test
+    public void findTailTest(){
+        LinkedList list = LinkedList.createList(100);
+        assertEquals(99,list.findTail().data);
+
+       //Test to make sure that tail is properly set on construction
+       /** memory leak?? **/
+       list = LinkedList.createList(50);
+       assertEquals(49,list.tail.data);
+    }
 }

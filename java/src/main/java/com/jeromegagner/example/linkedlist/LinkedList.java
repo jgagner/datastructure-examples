@@ -9,9 +9,11 @@ package com.jeromegagner.example.linkedlist;
  */
 public class LinkedList {
     Element head;
+    Element tail;
 
     public LinkedList(Element head) {
         this.head = head;
+        this.tail = findTail();
     }
 
     public Element find( Object data) {
@@ -33,10 +35,21 @@ public class LinkedList {
             Element item = new Element(i);
             previous.next = item;
             previous = item;
+            
         }
         return new LinkedList(head);
     }
 
+    /** utiity methods */
+
+    public Element findTail(){
+        Element head = this.head;
+        while(head.next != null){
+            head = head.next;   
+        }
+        return head;
+    }
+    
     public int length() {
         int i = 0;
         Element head = this.head;
