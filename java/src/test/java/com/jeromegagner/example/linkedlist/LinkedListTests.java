@@ -111,4 +111,16 @@ public class LinkedListTests {
         assertEquals(1,list.head.data);
 
     }
+
+    @Test
+    public void mthToEndGreaterThanLength(){
+        LinkedList list =  LinkedList.createList(10);
+        assertNull(list.findMthToLastElement(11));
+    }
+
+    @Test
+    public void mthToEnd(){
+        LinkedList list = LinkedList.createList(10);
+        assertEquals(4,list.findMthToLastElement(5).data);
+    }
 }

@@ -26,7 +26,7 @@ public class LinkedList {
 
 
     public boolean remove(Element elem) {
-        if(elem == this.head){
+        if (elem == this.head) {
             this.head = this.head.next;
             return true;
         }
@@ -34,44 +34,65 @@ public class LinkedList {
         while (current != null) {
             if (current.next == elem) {
                 current.next = elem.next;
-                if(current.next == null){
+                if (current.next == null) {
                     this.tail = current;
                 }
                 return true;
             }
-           current = current.next;
+            current = current.next;
         }
         return false; //if we get here, element was not found. I'd prefer keeping a *found* boolean flag, and return that to keep a single point of return
     }
 
     public boolean insertAfter(Element elem, Object data) {
 
-        if(elem == null){
+        if (elem == null) {
             Element e = new Element(data);
             e.next = this.head;
             this.head = e;
-            if(this.tail == null){
+            if (this.tail == null) {
                 this.tail = e;
             }
             return true;
         }
 
         Element current = this.head;
-        while(current != null)
-        {
-            if(current == elem){
+        while (current != null) {
+            if (current == elem) {
                 Element e = new Element(data);
                 e.next = current.next;
                 current.next = e;
-                if(e.next == null){
-                  //handle new tail case
-                  this.tail = e;  
+                if (e.next == null) {
+                    //handle new tail case
+                    this.tail = e;
                 }
                 return true;
             }
             current = current.next;
         }
         return false; //element not found
+    }
+
+
+    public Element findMthToLastElement(int m) {
+        Element elem, curr = head;
+
+        //Advance current m spaces
+        for(int i = 0;i < m; i++ ) {
+            if (curr == null) {
+                return null;   //#list length is < m
+            }
+            curr = curr.next;
+        }
+        
+        elem = this.head;
+        while (curr.next != null) {
+            //Advance element and current pointers in lock-step
+            curr = curr.next;
+            elem = elem.next;
+        }
+
+        return elem;
     }
 
     /**
@@ -95,9 +116,9 @@ public class LinkedList {
     public Element findTail() {
         Element head = this.head;
         while (head != null) {
-            if(head.next != null) {
+            if (head.next != null) {
                 head = head.next;
-            }else{
+            } else {
                 return head;
             }
         }
