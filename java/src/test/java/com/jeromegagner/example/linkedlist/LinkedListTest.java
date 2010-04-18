@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
  * Time: 9:54:16 AM
  * To change this template use File | Settings | File Templates.
  */
-public class LinkedListTests {
+public class LinkedListTest {
 
     @Test
     public void findTest() {

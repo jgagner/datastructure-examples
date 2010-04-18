@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
  * Time: 9:59:57 AM
  * To change this template use File | Settings | File Templates.
  */
-public class StackTests {
+public class StackTest {
 
     @Test
     public void testPush(){
