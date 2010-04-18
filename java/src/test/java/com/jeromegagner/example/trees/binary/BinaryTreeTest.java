@@ -1,5 +1,6 @@
 package com.jeromegagner.example.trees.binary;
 import org.junit.Test;
+import org.junit.Before;
 
 import static org.junit.Assert.*;
          
@@ -12,10 +13,23 @@ import static org.junit.Assert.*;
  */
 public class BinaryTreeTest {
 
+    BinaryTree testTree;
+
+    @Before
+    public void setUp()
+    {
+        testTree = BinaryTree.createTree(new int[]{50,75,39,14,76});
+    }
 
     @Test
-    public void lookupTest(){
-//        BinaryTree tree = new BinaryTree();
+    public void findNode(){
+       Node nodeToFind = testTree.root.getRight().getRight(); //76
+       assertEquals(nodeToFind,testTree.findNode(76));
+    }
+
+    @Test
+    public void testFindNodeNodeUnfound(){
+        assertNull(testTree.findNode(42));
     }
 
     @Test
@@ -48,6 +62,7 @@ public class BinaryTreeTest {
         assertEquals(76,right.getRight().getValue());
         assertNull(right.getRight().getRight());
         assertNull(right.getRight().getLeft());
+
 
     }
 

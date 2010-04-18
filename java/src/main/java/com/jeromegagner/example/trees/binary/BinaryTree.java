@@ -10,13 +10,32 @@ package com.jeromegagner.example.trees.binary;
 public class BinaryTree {
     Node root;
 
-    public Node findNode(int value){
-        return null;
-    }
 
 
     public BinaryTree(Node root){
         this.root = root;
+    }
+
+
+    /**
+     * Finds a node  in O(log(n))
+     * @param value
+     * @return found node. else null
+     */
+    public Node findNode(int value){
+
+        return findSubNode(this.root,value);
+    }
+
+//    recursively finds a sub node
+    public Node findSubNode(Node root, int value){
+        if(root == null || root.getValue() == value){
+            return root;
+        }else if(root.getValue() > value){
+            return findSubNode(root.getLeft(),value);
+        }else{
+            return findSubNode(root.getRight(),value);
+        }
     }
 
     /**
