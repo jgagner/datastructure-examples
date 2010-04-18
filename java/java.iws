@@ -16,13 +16,9 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="2fdedffc-7434-416e-b424-d008ae74cb2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iws" afterPath="$PROJECT_DIR$/java.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Element.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListOperationsTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedListOperations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/ListItem.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="java.iws" />
@@ -100,11 +96,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3569794">
+            <state line="6" column="29" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Stack.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackTests.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="41" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7688787">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,7 +128,7 @@
       <file leaf-file-name="LinkedListTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="2" column="0" selection-start="46" selection-end="102" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,6 +153,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListOperationsTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
       </list>
     </option>
   </component>
@@ -272,7 +290,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTests">
+  <component name="RunManager" selected="JUnit.StackTests">
     <configuration default="false" name="LinkedListOperationsTests" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
@@ -314,6 +332,34 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.jeromegagner.example.linkedlist" />
       <option name="MAIN_CLASS_NAME" value="com.jeromegagner.example.linkedlist.LinkedListTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StackTests" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.jeromegagner.example.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jeromegagner.example.linkedlist" />
+      <option name="MAIN_CLASS_NAME" value="com.jeromegagner.example.linkedlist.StackTests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -604,9 +650,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListOperationsTests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListTests" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StackTests" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -759,19 +806,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="46" selection-end="102" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="315" selection-end="315" vertical-scroll-proportion="0.3569794">
+        <state line="25" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="788" selection-end="788" vertical-scroll-proportion="0.7688787">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
