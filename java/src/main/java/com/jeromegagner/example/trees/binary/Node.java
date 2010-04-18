@@ -29,4 +29,12 @@ public class Node {
     public int getValue() {
         return value;
     }
+
+    public void setLeft(Node left){
+       this.left = left;
+    }
+    
+    public void setRight(Node right){
+        this.right = right;
+    }
 }

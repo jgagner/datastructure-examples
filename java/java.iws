@@ -17,7 +17,10 @@
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="2fdedffc-7434-416e-b424-d008ae74cb2f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iws" afterPath="$PROJECT_DIR$/java.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.ipr" afterPath="$PROJECT_DIR$/java.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java" afterPath="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="java.iws" />
@@ -107,7 +110,7 @@
       <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="6" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
+            <state line="35" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +119,7 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+            <state line="40" column="28" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +128,7 @@
       <file leaf-file-name="BinaryTreeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.46681923">
+            <state line="49" column="47" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8627002">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,10 +164,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" />
       </list>
     </option>
@@ -304,6 +307,44 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="binary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -317,7 +358,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.lastSelected" value="com.intellij.compiler.options.JavaCompilersTab" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -327,7 +368,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.LinkedListTest">
+  <component name="RunManager" selected="JUnit.BinaryTreeTest">
     <configuration default="false" name="LinkedListOperationsTests" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" runner="emma">
         <pattern>
@@ -415,6 +456,40 @@
       </option>
       <envs />
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BinaryTreeTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" runner="emma">
+        <pattern>
+          <option name="PATTERN" value="com.jeromegagner.example.trees.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="snapshooter" />
+      <module name="java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.jeromegagner.example.trees.binary" />
+      <option name="MAIN_CLASS_NAME" value="com.jeromegagner.example.trees.binary.BinaryTreeTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57636" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -693,10 +768,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListOperationsTests" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.LinkedListTests" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.StackTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BinaryTreeTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -853,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="37" selection-start="2362" selection-end="2362" vertical-scroll-proportion="0.0">
@@ -881,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="33" selection-start="46" selection-end="104" vertical-scroll-proportion="0.0">
@@ -897,9 +959,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="4" selection-start="683" selection-end="683" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="28" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.46681923">
+        <state line="49" column="47" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.8627002">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
