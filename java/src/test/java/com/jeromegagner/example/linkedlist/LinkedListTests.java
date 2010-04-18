@@ -67,4 +67,37 @@ public class LinkedListTests {
         assertFalse(list.remove(notThere));
         assertEquals(10, list.length());
     }
+
+    @Test
+    public void insertAfterElementNotFoundTest(){
+     LinkedList list = LinkedList.createList(10);
+        Element notThere = new Element(0);
+        assertFalse(list.insertAfter(notThere,11));
+        assertEquals(10, list.length());
+    }
+
+    @Test
+    public void insertAfterWithNull(){
+        LinkedList list = LinkedList.createList(10);
+        assertTrue(list.insertAfter(null,-1));
+        assertEquals(-1,list.head.data);
+        assertEquals(11,list.length());
+    }
+
+    @Test
+    public void testInMiddle(){
+      LinkedList list = LinkedList.createList(10);
+        assertTrue(list.insertAfter(list.head,-1));
+        assertEquals(-1,list.head.next.data);
+        assertEquals(11,list.length());
+    }
+
+    @Test
+    public void testInsertNewTail()
+    {
+        LinkedList list = LinkedList.createList(10);
+        assertTrue(list.insertAfter(list.tail,-1));
+        assertEquals(-1,list.tail.data);
+        assertEquals(11,list.length());
+    }
 }

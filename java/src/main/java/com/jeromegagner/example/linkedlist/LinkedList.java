@@ -45,7 +45,30 @@ public class LinkedList {
     }
 
     public boolean insertAfter(Element elem, Object data) {
-        return false;
+
+        if(elem == null){
+            Element e = new Element(data);
+            e.next = this.head;
+            this.head = e;
+            return true;
+        }
+
+        Element current = this.head;
+        while(current != null)
+        {
+            if(current == elem){
+                Element e = new Element(data);
+                e.next = current.next;
+                current.next = e;
+                if(e.next == null){
+                  //handle new tail case
+                  this.tail = e;  
+                }
+                return true;
+            }
+            current = current.next;
+        }
+        return false; //element not found
     }
 
     /**
@@ -66,7 +89,6 @@ public class LinkedList {
     /**
      * utiity methods
      */
-
     public Element findTail() {
         Element head = this.head;
         while (head.next != null) {
