@@ -100,4 +100,15 @@ public class LinkedListTests {
         assertEquals(-1,list.tail.data);
         assertEquals(11,list.length());
     }
+
+    @Test
+    public void testInsertEmptyList()
+    {
+        LinkedList list = new LinkedList(null);
+        assertTrue(list.insertAfter(null,1));
+        assertEquals(list.head,list.tail);
+        assertEquals(1,list.tail.data);
+        assertEquals(1,list.head.data);
+
+    }
 }

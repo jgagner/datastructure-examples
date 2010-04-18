@@ -50,6 +50,9 @@ public class LinkedList {
             Element e = new Element(data);
             e.next = this.head;
             this.head = e;
+            if(this.tail == null){
+                this.tail = e;
+            }
             return true;
         }
 
@@ -91,8 +94,12 @@ public class LinkedList {
      */
     public Element findTail() {
         Element head = this.head;
-        while (head.next != null) {
-            head = head.next;
+        while (head != null) {
+            if(head.next != null) {
+                head = head.next;
+            }else{
+                return head;
+            }
         }
         return head;
     }

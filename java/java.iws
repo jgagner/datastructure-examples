@@ -96,19 +96,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LinkedList.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="18" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
+            <state line="53" column="30" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.31753555">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LinkedListTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.8901602">
+            <state line="108" column="40" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,8 +133,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListOperationsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -808,19 +808,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="18" selection-start="1729" selection-end="1729" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="45" selection-start="2725" selection-end="2725" vertical-scroll-proportion="0.8901602">
+        <state line="108" column="40" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="30" selection-start="1473" selection-end="1473" vertical-scroll-proportion="0.31753555">
+          <folding />
         </state>
       </provider>
     </entry>
