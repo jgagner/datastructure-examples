@@ -1,9 +1,10 @@
 package com.jeromegagner.example.trees.binary;
-import org.junit.Test;
+
 import org.junit.Before;
+import org.junit.Test;
 
 import static org.junit.Assert.*;
-         
+
 /**
  * Created by IntelliJ IDEA.
  * User: jgagner
@@ -16,27 +17,36 @@ public class BinaryTreeTest {
     BinaryTree testTree;
 
     @Before
-    public void setUp()
-    {
-        testTree = BinaryTree.createTree(new int[]{50,75,39,14,76});
+    public void setUp() {
+        testTree = BinaryTree.createTree(new int[]{50, 75, 39, 14, 76});
     }
 
     @Test
-    public void findNode(){
-       Node nodeToFind = testTree.root.getRight().getRight(); //76
-       assertEquals(nodeToFind,testTree.findNode(76));
+    public void findNode() {
+        Node nodeToFind = testTree.root.getRight().getRight(); //76
+        assertEquals(nodeToFind, testTree.findNode(76));
+
+        //Try finding a node on the left
+
+        nodeToFind = testTree.root.getLeft();
+        assertEquals(nodeToFind, testTree.findNode(39));
+
+
+        //Try finding the root node
+        nodeToFind = testTree.root;
+        assertEquals(nodeToFind, testTree.findNode(50));
     }
 
     @Test
-    public void testFindNodeNodeUnfound(){
+    public void testFindNodeNodeUnfound() {
         assertNull(testTree.findNode(42));
     }
 
     @Test
-    public void testCreateTree(){
-        BinaryTree tree = BinaryTree.createTree(new int[]{50,75,39,14,76});
+    public void testCreateTree() {
+        BinaryTree tree = BinaryTree.createTree(new int[]{50, 75, 39, 14, 76});
         assertNotNull(tree.root);
-        assertEquals(50,tree.root.getValue());
+        assertEquals(50, tree.root.getValue());
 
 
         /*Produced tree should look like
@@ -49,22 +59,22 @@ public class BinaryTreeTest {
         //walk the tree a bit and test values. ghetto but oh well, need to make sure this method works...
         //Lets do the left first
         Node left = tree.root.getLeft();
-        assertEquals(39,left.getValue());
+        assertEquals(39, left.getValue());
         assertNull(left.getRight());
-        assertEquals(14,left.getLeft().getValue());
+        assertEquals(14, left.getLeft().getValue());
         assertNull(left.getLeft().getLeft());
         assertNull(left.getLeft().getRight());
 
         //now lets do the right side
         Node right = tree.root.getRight();
-        assertEquals(75,right.getValue());
-        assertEquals(null,right.getLeft());
-        assertEquals(76,right.getRight().getValue());
+        assertEquals(75, right.getValue());
+        assertEquals(null, right.getLeft());
+        assertEquals(76, right.getRight().getValue());
         assertNull(right.getRight().getRight());
         assertNull(right.getRight().getLeft());
 
 
     }
 
-    
+
 }
