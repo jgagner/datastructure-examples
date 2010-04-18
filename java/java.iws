@@ -16,10 +16,8 @@
   </component>
   <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="2fdedffc-7434-416e-b424-d008ae74cb2f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iml" afterPath="$PROJECT_DIR$/java.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.iws" afterPath="$PROJECT_DIR$/java.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.ipr" afterPath="$PROJECT_DIR$/java.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="java.iws" />
@@ -79,10 +77,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="664" selection-end="664" vertical-scroll-proportion="0.46681923">
+            <state line="10" column="62" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,11 +122,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BinaryTreeTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="17" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.46681923">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,7 +136,7 @@
       <file leaf-file-name="LinkedListTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="5" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.0">
+            <state line="5" column="33" selection-start="46" selection-end="104" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java" />
       </list>
     </option>
   </component>
@@ -852,32 +853,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="5" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="6" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -898,8 +876,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="664" selection-end="664" vertical-scroll-proportion="0.46681923">
+        <state line="10" column="62" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/trees/binary/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="33" selection-start="46" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/trees/binary/BinaryTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="43" selection-start="391" selection-end="391" vertical-scroll-proportion="0.46681923">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
