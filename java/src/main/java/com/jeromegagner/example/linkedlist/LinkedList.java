@@ -16,7 +16,7 @@ public class LinkedList {
         this.tail = findTail();
     }
 
-    public Element find( Object data) {
+    public Element find(Object data) {
         Element head = this.head;
         while (head != null && head.data != data) {
             head = head.next;
@@ -24,6 +24,29 @@ public class LinkedList {
         return head;
     }
 
+
+    public boolean remove(Element elem) {
+        if(elem == this.head){
+            this.head = this.head.next;
+            return true;
+        }
+        Element current = this.head;
+        while (current != null) {
+            if (current.next == elem) {
+                current.next = elem.next;
+                if(current.next == null){
+                    this.tail = current;
+                }
+                return true;
+            }
+           current = current.next;
+        }
+        return false; //if we get here, element was not found. I'd prefer keeping a *found* boolean flag, and return that to keep a single point of return
+    }
+
+    public boolean insertAfter(Element elem, Object data) {
+        return false;
+    }
 
     /**
      * utility for creating linked list of a certain size *
@@ -35,21 +58,23 @@ public class LinkedList {
             Element item = new Element(i);
             previous.next = item;
             previous = item;
-            
+
         }
         return new LinkedList(head);
     }
 
-    /** utiity methods */
+    /**
+     * utiity methods
+     */
 
-    public Element findTail(){
+    public Element findTail() {
         Element head = this.head;
-        while(head.next != null){
-            head = head.next;   
+        while (head.next != null) {
+            head = head.next;
         }
         return head;
     }
-    
+
     public int length() {
         int i = 0;
         Element head = this.head;

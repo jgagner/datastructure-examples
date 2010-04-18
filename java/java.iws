@@ -37,21 +37,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" line="49" class="com.jeromegagner.example.linkedlist.LinkedList" package="com.jeromegagner.example.linkedlist">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -111,10 +96,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="LinkedList.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+            <state line="39" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.6635071">
               <folding />
             </state>
           </provider>
@@ -140,10 +125,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListTests.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LinkedListTests.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="24" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5057208">
+            <state line="58" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,8 +153,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListOperationsTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Stack.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -820,13 +805,6 @@
         <state line="17" column="22" selection-start="614" selection-end="614" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/StackTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="35" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
@@ -843,19 +821,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/Element.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1169" selection-end="1169" vertical-scroll-proportion="0.0">
+        <state line="1" column="19" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/jeromegagner/example/linkedlist/LinkedListTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5057208">
+        <state line="58" column="0" selection-start="1509" selection-end="1509" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jeromegagner/example/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="28" selection-start="997" selection-end="997" vertical-scroll-proportion="0.6635071">
+          <folding />
         </state>
       </provider>
     </entry>

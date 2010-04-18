@@ -1,7 +1,9 @@
 package com.jeromegagner.example.linkedlist;
 
 import org.junit.Test;
+
 import static org.junit.Assert.*;
+
 /**
  * Created by IntelliJ IDEA.
  * User: jgagner
@@ -11,34 +13,58 @@ import static org.junit.Assert.*;
  */
 public class LinkedListTests {
 
-     @Test
+    @Test
     public void findTest() {
-       LinkedList list = LinkedList.createList(10);
-       assertEquals(list.find(5).data,5);
+        LinkedList list = LinkedList.createList(10);
+        assertEquals(list.find(5).data, 5);
     }
 
     @Test
-    public void findTestWithNonExistentElement()
-    {
-       LinkedList list = LinkedList.createList(10);
-       assertNull(list.find(11));
+    public void findTestWithNonExistentElement() {
+        LinkedList list = LinkedList.createList(10);
+        assertNull(list.find(11));
     }
 
     @Test
-    public void sizeTest(){
+    public void sizeTest() {
         LinkedList list = LinkedList.createList(100);
-        assertEquals(100,list.length());
+        assertEquals(100, list.length());
     }
 
 
     @Test
-    public void findTailTest(){
+    public void findTailTest() {
         LinkedList list = LinkedList.createList(100);
-        assertEquals(99,list.findTail().data);
+        assertEquals(99, list.findTail().data);
 
-       //Test to make sure that tail is properly set on construction
-       /** memory leak?? **/
-       list = LinkedList.createList(50);
-       assertEquals(49,list.tail.data);
+        //Test to make sure that tail is properly set on construction
+        /** memory leak?? **/
+        list = LinkedList.createList(50);
+        assertEquals(49, list.tail.data);
+    }
+
+    @Test
+    public void removeHeadTest() {
+        LinkedList list = LinkedList.createList(10);
+        Element expectedNewHead = list.head.next;
+        assertTrue(list.remove(list.head));
+        assertEquals(expectedNewHead, list.head);
+        assertEquals(9, list.length());
+    }
+
+    @Test
+    public void removeTailTest() {
+        LinkedList list = LinkedList.createList(10);
+        Element expectedTail = list.find(8);
+        assertTrue(list.remove(list.tail));
+        assertEquals(expectedTail, list.tail);
+    }
+
+    @Test
+    public void removeTailNonexisting() {
+        LinkedList list = LinkedList.createList(10);
+        Element notThere = new Element(0);
+        assertFalse(list.remove(notThere));
+        assertEquals(10, list.length());
     }
 }
